@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<html lang="zh_CN" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>以交易为生 - 阅读笔记</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="阅读笔记">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../../favicon.svg">
+        <link rel="shortcut icon" href="../../../favicon.png">
+        <link rel="stylesheet" href="../../../css/variables.css">
+        <link rel="stylesheet" href="../../../css/general.css">
+        <link rel="stylesheet" href="../../../css/chrome.css">
+        <link rel="stylesheet" href="../../../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../../highlight.css">
+        <link rel="stylesheet" href="../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../../../investment/intro.html"><strong aria-hidden="true">1.</strong> 投资</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../investment/philosophy/intro.html"><strong aria-hidden="true">1.1.</strong> 投资哲学</a></li><li class="chapter-item "><a href="../../../investment/strategy/intro.html"><strong aria-hidden="true">1.2.</strong> 投资策略</a></li><li class="chapter-item "><a href="../../../investment/analysis/intro.html"><strong aria-hidden="true">1.3.</strong> 投资分析</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../investment/analysis/financial-report.html"><strong aria-hidden="true">1.3.1.</strong> 财报分析</a></li><li class="chapter-item "><a href="../../../investment/analysis/company/intro.html"><strong aria-hidden="true">1.3.2.</strong> 公司分析</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../investment/analysis/company/601888.html"><strong aria-hidden="true">1.3.2.1.</strong> 中国中免</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../../investment/trade/intro.html"><strong aria-hidden="true">1.4.</strong> 投资交易</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../investment/trade/daily-thinking.html"><strong aria-hidden="true">1.4.1.</strong> 投资日思</a></li><li class="chapter-item "><a href="../../../investment/trade/trade-record.html"><strong aria-hidden="true">1.4.2.</strong> 交易记录</a></li><li class="chapter-item "><a href="../../../investment/trade/summary.html"><strong aria-hidden="true">1.4.3.</strong> 投资总结</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../investment/trade/summary/three-year-summary.html"><strong aria-hidden="true">1.4.3.1.</strong> 2024-2026这三年</a></li><li class="chapter-item "><a href="../../../investment/trade/summary/journal.html"><strong aria-hidden="true">1.4.3.2.</strong> 投资杂记</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../../investment/read/intro.html"><strong aria-hidden="true">1.5.</strong> 投资阅读</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../investment/read/books/intro.html"><strong aria-hidden="true">1.5.1.</strong> 读书</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../investment/read/books/journal.html"><strong aria-hidden="true">1.5.1.1.</strong> 笔记杂记</a></li><li class="chapter-item expanded "><a href="../../../investment/read/books/the-new-trading-for-a-living.html" class="active"><strong aria-hidden="true">1.5.1.2.</strong> 以交易为生</a></li></ol></li><li class="chapter-item "><a href="../../../investment/read/weeklyonstock.html"><strong aria-hidden="true">1.5.2.</strong> 证券市场周刊</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../investment/read/weeklyonstock-3090.html"><strong aria-hidden="true">1.5.2.1.</strong> 2026年10月17日-第40期-总3090期</a></li></ol></li></ol></li></ol></li><li class="chapter-item "><a href="../../../health/intro.html"><strong aria-hidden="true">2.</strong> 健康</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">阅读笔记</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/xiaozhiliaoo/reading-note-2026" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="以交易为生"><a class="header" href="#以交易为生">以交易为生</a></h1>
+<h2 id="第1章-个体心理"><a class="header" href="#第1章-个体心理">第1章 个体心理</a></h2>
+<p>单笔交易的最大可承受亏损，不应超过账户总资金的2%。如果账户上有3万美元，单笔交易的损失就要控制在600美元以内；如果有1万美元，单笔交易的损失就要控制在200美元以内。</p>
+<p>连续亏损的生存能力：连续亏损 10 次，账户回撤约 18% 左右，仍有较大恢复空间。如果单笔亏 10%，连续亏 5 次就接近腰斩，恢复难度极大。</p>
+<p>健康的心态、符合逻辑的交易系统、良好的资金管理计划。</p>
+<p>交易必须以清晰明确的原则为基础；交易时必须分析自己的感受，以确信所做决策有合理依据，同时还要设计资金管理计划，以免因一连串的损失导致出局。</p>
+<p>坚持写操作日记，记录每次买卖的理由，从中总结反复成功和反复失败的操作模式。</p>
+<p>交易者的成功在于逐步积累财富的能力，而不是一次赚多少钱。</p>
+<p>交易时段不要做决策，要提前做好交易计划，并按照既定计划进行操作。</p>
+<p>酗酒者和赔钱的交易者有一点十分相似：就像酗酒者试图把烈性酒改为啤酒来解决问题一样，交易者总在不断变换交易技巧，但都失去了控制。</p>
+<p>放松的交易者才能集中精力寻找最好的、最安全的交易机会。</p>
+<p>市场根本不知道你的存在，你无法采取任何措施来影响市场，只能控制自己的行为。当感情而非智慧主导行为时，会威胁到你的生存。</p>
+<p>首要目标必须是能长期生存下来，其次是资产的稳定增长，第三个目标才是获取高额收益。大多数交易者把第三个目标排在第一位，而没有意识到前两个目标的存在。</p>
+<p>交易者是任何交易系统中最薄弱的环节。</p>
+<p>每一笔成交价都代表了交易当时买方、卖方和观望者之间达成的货币化的价值共识。在行情走势图上的每一种价格走势背后都有一大群交易者。</p>
+<p>聪明的交易者总是在市场平静时买入，在市场疯狂时获利了结。</p>
+<h2 id="第2章-群体心理"><a class="header" href="#第2章-群体心理">第2章 群体心理</a></h2>
+<p>市场就是一大群人，群体中的每一位成员都想着自己能比别人聪明，从而赚到别人手中的钱。市场环境的残酷性是独一无二的，因为每个人都是你的对手，当然你也是每个人的对手。</p>
+<p>当你分析市场时，你是在分析群体行为。</p>
+<p>群体可能是愚蠢的，但是它比你强。群体能够创造趋势，永远也不要与趋势较劲。</p>
+<p>尊重群体的力量，但也不必对它感到恐惧。群体势力强大，但也很原始，它的行为简单且不断重复。独立思考的交易者能从群体成员手中赚到钱。</p>
+<p>因为其他交易者把钱带到了市场，你想赚的钱是属于其他人的，他们并不想把钱给你。</p>
+<p>学会交易需要花费艰辛的劳动、时间、精力和金钱。业余投资者把非理性因素带进了市场，只有少数人能上升到职业水准，并通过交易维持生计。专业投资者对所作所为十分认真，他们在市场外满足自己的非理性目标；学会交易需要花费艰辛的劳动、时间、精力和金钱。</p>
+<p>个人投资者要想胜过大机构，必须培养耐心、消除贪心。记住，你的目标是交易成功，而不是频繁交易。</p>
+<p>大多数人无法遵照自己的交易计划进行交易，因为他们的感受、思想和行为受到群体的影响。</p>
+<p>交易前必须做好详细计划并严格执行，不要根据价格变化冲动操作。记下交易计划有好处，必须确切知道什么时候进、什么时候出，不要临场随意决策，因为那时很容易被群体同化。</p>
+<p>技术分析被用于社会心理学，其目的是要识别群体行为的趋势和变化，以便做出明智的交易决策。</p>
+<p>个体倾向于自由，其行为很难预测，但群体的行为相对要简单，容易跟踪。</p>
+<p>许多交易者认为市场分析的目标是要预测未来的价格走势。在大多数领域，业余人土都在询问未来会怎样，而专业玩家只是处理信息并根据概率做出决策。</p>
+<p>要想操作获利，没必要预测未来的价格走势。你必须从市场上收集信息，找出目前市场由多空双方的何方掌控；必须评估主导市场的群体的势力，判断目前趋势持续的可能性有多大；
+必须实施保守的资金管理以便求得长期生存和收益积累；必须观察自己的思维方式，避免陷入贪婪和恐惧。交易者做了所有这些后，要比预言家更成功。</p>
+<p>成功的交易基于三大支柱：一是需要分析多空力量的平衡；二是需要实施良好的资金管理；三是需要严格按照自己的交易计划进行交易，避免套在市场高位。</p>
+<h2 id="第3章-传统图形分析"><a class="header" href="#第3章-传统图形分析">第3章　传统图形分析</a></h2>
+<h2 id="第4章-计算机化技术分析"><a class="header" href="#第4章-计算机化技术分析">第4章　计算机化技术分析</a></h2>
+<h2 id="第5章-被忽视的要素"><a class="header" href="#第5章-被忽视的要素">第5章　被忽视的要素</a></h2>
+<h2 id="第6章-股市指标"><a class="header" href="#第6章-股市指标">第6章　股市指标</a></h2>
+<h2 id="第7章-心理指标"><a class="header" href="#第7章-心理指标">第7章　心理指标</a></h2>
+<h2 id="第8章-新指标"><a class="header" href="#第8章-新指标">第8章　新指标</a></h2>
+<h2 id="第9章-交易系统"><a class="header" href="#第9章-交易系统">第9章　交易系统</a></h2>
+<h2 id="第10章-风险管理"><a class="header" href="#第10章-风险管理">第10章　风险管理</a></h2>
+<p>真正的伤害来自少数几笔大的损失，或是为了摊平而导致的一连串亏损。而良好的资金管理将使你免于套牢。</p>
+<p>任何资金管理方法都拯救不了一个不好的交易系统。</p>
+<p>最好的交易系统都简朴而扎实。</p>
+<p>资金管理的首要目标是确保生存。</p>
+<p>当损失呈算术级数上升时，扳平就呈几何级数上升。</p>
+<p>该冒多大风险？如果每次拿出资金量的1/4，那你肯定会输光，因为只需连输几次你就输光了，而即便是优秀的交易系统也很容易连错几次。即使每次拿出全部资金的1/10，你也难以存活太久。</p>
+<p>许多人的资金量很小，2%的原则将破坏他们快速致富的美梦。相反，大多数成功的专业玩家却认为2%定得太高了，他们给自己定的标准是单笔交易的亏损最多不能超过总资金量的1%或1.5%。</p>
+<p>如果想留下最好的交易记录，就要将每月的损失控制在6%~8%以内。一旦损失达到这一限制，在当月余下的时间里就要停止交易，利用这一段冷静期进行自我反省，重新思考方法和市场。</p>
+<p>如果止损位导致潜在亏损超过资金量的2%，就应该放弃操作。</p>
+<p>逢输加倍是最古老的资金管理系统之一，最初是用来赌博的。“逢输加倍”是一种很糟糕的资金管理方法。</p>
+<p>加仓位的风险额控制在总资金量的2%以内即可。</p>
+<p>2%原则能帮你判断交易合约数量。</p>
+<p>数条通用的资金管理原则：绝对不可以加仓摊平，绝对不能追缴保证金；如果必须减仓，就先减掉亏损最严重的仓位，立即认错损失最小。</p>
+<p>交易者所犯的最糟糕的错误在于，持仓时算钱。</p>
+<p>新手过早获利了结会后悔没赚到该赚的利润，决定下次一定要拿住，结果持仓时间过长导致赔钱；如果因行情反转没能抓住到手的利润，
+下次就会先获利了结，结果错失主要行情。总之，市场左右着业余人士的情绪，让他们来回折腾。 -- 本质在算钱，而不是寻找有意义交易机会。</p>
+<p>关注交易质量，寻找有意义的交易机会，制定资金管理计划控制损失。集中精力寻找好的入场点，避免赌博心理，钱自然就有了。在交易结束以后，你尽可以去算赚了多少。</p>
+<p>人们从感情上很难斩仓出局，但获利了结更难。</p>
+<p>这是一笔很好的交易吗？哪些指标有用、哪些没用？入场点好不好？最初的止损点设得太宽还是太窄，为什么，宽了多少、窄了多少？
+将止损位调整到盈亏平衡点时是太早了还是太晚了？止盈点是设得太松了还是太紧了？看到了出场信号吗？下次会有什么不同的做法吗？
+在交易的不同阶段感受如何？这种分析是防范情绪化交易的解药。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../../investment/read/books/journal.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../../../investment/read/weeklyonstock.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../../investment/read/books/journal.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../../../investment/read/weeklyonstock.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../../../ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="../../../mermaid.min.js"></script>
+        <script type="text/javascript" src="../../../mermaid-init.js"></script>
+        <script type="text/javascript" src="../../../smart-anchor.js"></script>
+        <script src="https://utteranc.es/client.js"
+        repo="RustMagazine/rust_magazine_2021"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async></script>
+
+    </body>
+</html>
