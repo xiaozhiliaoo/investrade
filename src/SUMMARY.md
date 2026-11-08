@@ -108,5 +108,3 @@
       - [笔记杂记](investment/read/books/journal.md)
     - [证券市场周刊](investment/read/weeklyonstock.md)
       - [2026年10月17日-第40期-总3090期](investment/read/weeklyonstock-3090.md)
-
-- [健康](health/intro.md)
