@@ -103,6 +103,7 @@
         - [27.高胜算操盘](investment/read/books/duoshou/high-probability-trading.md)
       - [国内投资系列](investment/read/books/china/intro.md)
         - [林园炒股秘籍](investment/read/books/china/linyuan-secret.md)
+        - [讲故事学期货](investment/read/books/china/futures-through-story.md)
       - [国外投资系列](investment/read/books/foreign/intro.md)
         - [周期与财富](investment/read/books/foreign/cycle-and-wealth.md) 
       - [笔记杂记](investment/read/books/journal.md)
